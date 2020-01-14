@@ -82,7 +82,8 @@ shinyUI(fluidPage(theme = shinytheme("darkly"),
                   ),
                   tabPanel("About",
                   p("This app is intended to help healthcare professionals to quickly determine the dose required for a patient depends on his weight, renal and hepatic functions. The app also consider if the drug is in a liquid formulation, calculating the required volume.")
-                  )
+                  ),
+                  div(style="display: inline-block;vertical-align:top;width: 200px;height:30px", a("Developed by Omar Elashkar" , icon("github"), href="https://github.com/omarelashkar") )
                   )#tabsetpanel
         )
 ))
